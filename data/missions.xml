@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<space_missions>
+    <mission id="VGR-1" status="active">
+        <name>Voyager 1</name>
+        <agency>NASA</agency>
+        <launch_date>1977-09-05</launch_date>
+        <destination>Interstellar Space</destination>
+        <current_distance_au>159.8</current_distance_au>
+        <mission_type>deep_space_exploration</mission_type>
+        <description>Farthest human-made object from Earth, now in interstellar space studying cosmic rays and magnetic fields.</description>
+        
+        <instruments>
+            <instrument id="ISS">
+                <name>Imaging Science System</name>
+                <type>camera</type>
+                <status>inactive</status>
+                <power_consumption_watts>28.0</power_consumption_watts>
+            </instrument>
+            <instrument id="MAG">
+                <name>Magnetometer</name>
+                <type>sensor</type>
+                <status>active</status>
+                <power_consumption_watts>3.9</power_consumption_watts>
+            </instrument>
+            <instrument id="PLS">
+                <name>Plasma Wave Subsystem</name>
+                <type>sensor</type>
+                <status>active</status>
+                <power_consumption_watts>9.8</power_consumption_watts>
+            </instrument>
+        </instruments>
+        
+        <telemetry_data>
+            <reading timestamp="2026-05-20T14:32:00Z">
+                <parameter>temperature_kelvin</parameter>
+                <value>-270.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-20T14:32:00Z">
+                <parameter>cosmic_ray_intensity</parameter>
+                <value>4.2</value>
+                <unit>particles/cm²/s</unit>
+            </reading>
+            <reading timestamp="2026-05-20T14:32:00Z">
+                <parameter>magnetic_field_strength</parameter>
+                <value>0.38</value>
+                <unit>nT</unit>
+            </reading>
+        </telemetry_data>
+        
+        <communication>
+            <signal_strength_db>-192</signal_strength_db>
+            <data_rate_bps>160</data_rate_bps>
+            <round_trip_light_time_hours>44.3</round_trip_light_time_hours>
+        </communication>
+    </mission>
+    
+    <mission id="PSP-01" status="active">
+        <name>Parker Solar Probe</name>
+        <agency>NASA</agency>
+        <launch_date>2018-08-12</launch_date>
+        <destination>Solar Corona</destination>
+        <current_distance_au>0.045</current_distance_au>
+        <mission_type>solar_observation</mission_type>
+        <description>Humanity's closest approach to the Sun, studying solar wind and magnetic fields in extreme temperatures.</description>
+        
+        <instruments>
+            <instrument id="WISPR">
+                <name>Wide-field Imager</name>
+                <type>camera</type>
+                <status>active</status>
+                <power_consumption_watts>8.4</power_consumption_watts>
+            </instrument>
+            <instrument id="FIELDS">
+                <name>Electromagnetic Fields Suite</name>
+                <type>sensor</type>
+                <status>active</status>
+                <power_consumption_watts>10.2</power_consumption_watts>
+            </instrument>
+            <instrument id="SWEAP">
+                <name>Solar Wind Electrons Alphas Protons</name>
+                <type>spectrometer</type>
+                <status>active</status>
+                <power_consumption_watts>19.5</power_consumption_watts>
+            </instrument>
+        </instruments>
+        
+        <telemetry_data>
+            <reading timestamp="2026-05-23T09:15:00Z">
+                <parameter>temperature_kelvin</parameter>
+                <value>1643.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-23T09:15:00Z">
+                <parameter>solar_wind_speed</parameter>
+                <value>547000</value>
+                <unit>m/s</unit>
+            </reading>
+            <reading timestamp="2026-05-23T09:15:00Z">
+                <parameter>heat_shield_temperature</parameter>
+                <value>1648.15</value>
+                <unit>K</unit>
+            </reading>
+        </telemetry_data>
+        
+        <communication>
+            <signal_strength_db>-145</signal_strength_db>
+            <data_rate_bps>167000</data_rate_bps>
+            <round_trip_light_time_hours>0.007</round_trip_light_time_hours>
+        </communication>
+    </mission>
+    
+    <mission id="JWST-01" status="active">
+        <name>James Webb Space Telescope</name>
+        <agency>NASA/ESA/CSA</agency>
+        <launch_date>2021-12-25</launch_date>
+        <destination>L2 Lagrange Point</destination>
+        <current_distance_au>0.01</current_distance_au>
+        <mission_type>space_telescope</mission_type>
+        <description>The most powerful space telescope ever built, observing the earliest galaxies and exoplanet atmospheres in infrared.</description>
+        
+        <instruments>
+            <instrument id="NIRCAM">
+                <name>Near Infrared Camera</name>
+                <type>camera</type>
+                <status>active</status>
+                <power_consumption_watts>87.0</power_consumption_watts>
+            </instrument>
+            <instrument id="MIRI">
+                <name>Mid-Infrared Instrument</name>
+                <type>camera</type>
+                <status>active</status>
+                <power_consumption_watts>124.0</power_consumption_watts>
+            </instrument>
+            <instrument id="NIRSPEC">
+                <name>Near Infrared Spectrograph</name>
+                <type>spectrometer</type>
+                <status>active</status>
+                <power_consumption_watts>92.0</power_consumption_watts>
+            </instrument>
+        </instruments>
+        
+        <telemetry_data>
+            <reading timestamp="2026-05-24T03:45:00Z">
+                <parameter>primary_mirror_temperature</parameter>
+                <value>-233.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-24T03:45:00Z">
+                <parameter>sunshield_temperature_hot_side</parameter>
+                <value>358.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-24T03:45:00Z">
+                <parameter>pointing_accuracy</parameter>
+                <value>0.001</value>
+                <unit>arcseconds</unit>
+            </reading>
+        </telemetry_data>
+        
+        <communication>
+            <signal_strength_db>-156</signal_strength_db>
+            <data_rate_bps>28000000</data_rate_bps>
+            <round_trip_light_time_hours>0.016</round_trip_light_time_hours>
+        </communication>
+    </mission>
+    
+    <mission id="MSL-CUR" status="active">
+        <name>Curiosity Mars Rover</name>
+        <agency>NASA</agency>
+        <launch_date>2011-11-26</launch_date>
+        <destination>Mars (Gale Crater)</destination>
+        <current_distance_au>1.52</current_distance_au>
+        <mission_type>planetary_rover</mission_type>
+        <description>Car-sized rover exploring Mars geology and climate, searching for past conditions that could have supported microbial life.</description>
+        
+        <instruments>
+            <instrument id="MASTCAM">
+                <name>Mast Camera</name>
+                <type>camera</type>
+                <status>active</status>
+                <power_consumption_watts>15.0</power_consumption_watts>
+            </instrument>
+            <instrument id="CHEMCAM">
+                <name>Chemistry and Camera</name>
+                <type>laser_spectrometer</type>
+                <status>active</status>
+                <power_consumption_watts>39.0</power_consumption_watts>
+            </instrument>
+            <instrument id="SAM">
+                <name>Sample Analysis at Mars</name>
+                <type>laboratory</type>
+                <status>active</status>
+                <power_consumption_watts>84.0</power_consumption_watts>
+            </instrument>
+            <instrument id="RAD">
+                <name>Radiation Assessment Detector</name>
+                <type>sensor</type>
+                <status>active</status>
+                <power_consumption_watts>6.5</power_consumption_watts>
+            </instrument>
+        </instruments>
+        
+        <telemetry_data>
+            <reading timestamp="2026-05-22T19:20:00Z">
+                <parameter>ground_temperature</parameter>
+                <value>-63.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-22T19:20:00Z">
+                <parameter>atmospheric_pressure</parameter>
+                <value>750</value>
+                <unit>Pa</unit>
+            </reading>
+            <reading timestamp="2026-05-22T19:20:00Z">
+                <parameter>radiation_dose</parameter>
+                <value>76</value>
+                <unit>microGray/day</unit>
+            </reading>
+            <reading timestamp="2026-05-22T19:20:00Z">
+                <parameter>distance_traveled</parameter>
+                <value>31847</value>
+                <unit>meters</unit>
+            </reading>
+        </telemetry_data>
+        
+        <communication>
+            <signal_strength_db>-168</signal_strength_db>
+            <data_rate_bps>32000</data_rate_bps>
+            <round_trip_light_time_hours>0.025</round_trip_light_time_hours>
+        </communication>
+    </mission>
+    
+    <mission id="NH-PLU" status="hibernation">
+        <name>New Horizons</name>
+        <agency>NASA</agency>
+        <launch_date>2006-01-19</launch_date>
+        <destination>Kuiper Belt</destination>
+        <current_distance_au>58.2</current_distance_au>
+        <mission_type>deep_space_exploration</mission_type>
+        <description>First spacecraft to explore Pluto and Kuiper Belt objects, currently in extended mission hibernation mode.</description>
+        
+        <instruments>
+            <instrument id="LORRI">
+                <name>Long Range Reconnaissance Imager</name>
+                <type>camera</type>
+                <status>hibernation</status>
+                <power_consumption_watts>5.8</power_consumption_watts>
+            </instrument>
+            <instrument id="ALICE">
+                <name>Ultraviolet Imaging Spectrometer</name>
+                <type>spectrometer</type>
+                <status>hibernation</status>
+                <power_consumption_watts>4.5</power_consumption_watts>
+            </instrument>
+            <instrument id="REX">
+                <name>Radio Science Experiment</name>
+                <type>radio</type>
+                <status>active</status>
+                <power_consumption_watts>12.0</power_consumption_watts>
+            </instrument>
+        </instruments>
+        
+        <telemetry_data>
+            <reading timestamp="2026-05-15T08:00:00Z">
+                <parameter>temperature_kelvin</parameter>
+                <value>-255.15</value>
+                <unit>K</unit>
+            </reading>
+            <reading timestamp="2026-05-15T08:00:00Z">
+                <parameter>plutonium_power_remaining</parameter>
+                <value>183</value>
+                <unit>watts</unit>
+            </reading>
+        </telemetry_data>
+        
+        <communication>
+            <signal_strength_db>-185</signal_strength_db>
+            <data_rate_bps>1000</data_rate_bps>
+            <round_trip_light_time_hours>16.2</round_trip_light_time_hours>
+        </communication>
+    </mission>
+</space_missions>
